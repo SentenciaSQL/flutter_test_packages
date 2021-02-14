@@ -43,6 +43,10 @@ class WidgetMenu extends StatelessWidget {
             title: Text('Before After'),
             onTap: () => ('before_after' != pageRoute) ? Navigator.pushReplacementNamed(context, 'before_after'): null,
           ),
+          ListTile(
+            title: Text('Intro Slider'),
+            onTap: () => ('intro_slider' != pageRoute) ? Navigator.pushReplacementNamed(context, 'intro_slider'): null,
+          ),
         ],
       ),
     );
