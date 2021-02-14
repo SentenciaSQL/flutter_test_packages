@@ -99,7 +99,7 @@ class _CustomTabSliderPageState extends State<CustomTabSliderPage> {
         child: Container(
           margin: EdgeInsets.only(bottom: 60.0, top: 60.0),
           child: ListView(
-            children: <Widget>[
+            children: [
               GestureDetector(
                   child: Image.asset(
                 currentSlide.pathImage,
