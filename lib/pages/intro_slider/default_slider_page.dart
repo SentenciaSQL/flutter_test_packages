@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_test_packages/widgets/menu_widget.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'package:intro_slider/slide_object.dart';
 
@@ -26,6 +27,7 @@ class _DefalultSliderPageState extends State<DefalultSliderPage> {
       appBar: AppBar(
         title: Text('Default config'),
       ),
+      drawer: WidgetMenu(),
       body: IntroSlider(
         slides: slides,
         onDonePress: onDonePress,
